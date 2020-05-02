@@ -1,0 +1,40 @@
+#stayhome{
+    text-align: center;
+    font-style: italic;
+    color: #ee5253;
+}
+
+
+.summary {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+
+.summary-child{
+    margin-left: 15px;
+    border: 1px solid gray;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+
+.total {
+    background-color: #f1c40f;
+}
+
+.total-today {
+    background-color: #f39c12;
+}
+
+.total-death{
+    background-color: #e74c3c;
+}
+
+.total-recovered{
+    background-color: #2ecc71;
+}
+
+.total-active{
+    background-color: #3498db;
+}
